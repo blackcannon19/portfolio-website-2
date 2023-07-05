@@ -1,0 +1,252 @@
+@media screen and (max-width: 1000px) {
+  .arrow {
+    display: none;
+  }
+
+  nav {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  .nav-links {
+    font-size: 1.2rem;
+    gap: 1rem;
+  }
+
+  .profilepic {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    margin: 2rem 0;
+  }
+
+  #profile {
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #experience {
+    margin-top: 6rem;
+  }
+  .container {
+    flex-direction: column;
+  }
+
+  .left-img {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+  }
+
+  .right-text {
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+
+  .bottom-text {
+    text-align: center;
+  }
+
+  .aboutme-boxes {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .p-boxes {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .p-box-1,
+  .p-box-2,
+  .p-box-3 {
+    width: 400px;
+  }
+
+  .p-boxes img {
+    width: 350px;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+
+  #context {
+    align-items: center;
+    margin-top: 44rem;
+  }
+
+  .footer-nav li {
+    font-size: 1rem;
+  }
+
+  footer {
+    margin-bottom: 1.5rem;
+    gap: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .arrow {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  .nav-links {
+    font-size: 1rem;
+    gap: 1rem;
+  }
+
+  .profilepic {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    margin: 1rem 0;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .low-p {
+    font-size: 0.9rem;
+  }
+
+  .developer {
+    font-size: 1.2rem;
+  }
+
+  .top-text {
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  .btn {
+    padding: 0.6rem;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .left-img {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 270px;
+  }
+
+  .boxes {
+    gap: 0.1rem;
+    flex-direction: column;
+  }
+
+  .box-1,
+  .box-2 {
+    border: none;
+    padding: 0.6rem;
+  }
+
+  .bottom-text {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0rem 1.5rem;
+  }
+
+  #experience,
+  #about,
+  #projects {
+    margin: 0;
+  }
+
+  #experience {
+    margin-top: 22rem;
+  }
+
+  .frontend-1,
+  .frontend-2 {
+    border: none;
+    margin-top: 1rem;
+  }
+
+  .aboutme-boxes {
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .experiences {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .html {
+    align-items: center;
+  }
+
+  #projects {
+    margin-top: 38rem;
+  }
+
+  .p-box-1,
+  .p-box-2,
+  .p-box-3 {
+    width: 260px;
+  }
+
+  .p-boxes img {
+    width: 250px;
+  }
+
+  .contact-box {
+    width: 350px;
+  }
+
+  .contact {
+    gap: 0.7rem;
+    font-size: 1rem;
+  }
+
+  #context {
+    margin-top: 50rem;
+  }
+
+  .footer-nav li {
+    font-size: 2rem;
+  }
+
+  footer {
+    margin-bottom: 1rem;
+    gap: 0.5rem;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+}
